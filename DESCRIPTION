@@ -8,7 +8,8 @@ Maintainer: John A. Ramey <johnramey@gmail.com>
 Description: This package contains a variety of useful utility functions to
     simplify and to enhance common data-manipulation tasks in R.
 Depends:
-    R (>= 3.0.2)
+    R (>= 3.0.2),
+    car (>= 2.0.21)
 Imports:
     itertools2 (>= 0.1.1)
 Suggests:

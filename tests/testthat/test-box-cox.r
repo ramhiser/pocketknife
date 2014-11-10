@@ -8,6 +8,7 @@ test_that("Box-Cox transformation works with a numeric vector", {
   
   # Manually employ Box-Cox
   df <- data.frame(x=x)
+
   bc_manual <- boxCox(x ~ 1, data=df, family="bcPower", plotit=FALSE, interp=TRUE)
   lambda <- with(bc_manual, x[which.max(y)])  
   x_transformed <- bcPower(x, lambda=lambda)
