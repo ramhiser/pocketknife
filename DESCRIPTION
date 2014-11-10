@@ -5,7 +5,8 @@ Version: 0.1
 Date: 2014-11-10
 Author: John A. Ramey <johnramey@gmail.com>
 Maintainer: John A. Ramey <johnramey@gmail.com>
-Description: This package contains a variety of useful utility functions to simplify and to enhance common data-manipulation tasks in R.
+Description: This package contains a variety of useful utility functions to
+    simplify and to enhance common data-manipulation tasks in R.
 Depends:
     R (>= 3.0.2)
 Imports:
