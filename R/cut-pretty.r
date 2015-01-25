@@ -1,5 +1,6 @@
 #' Cuts a vector into factors with pretty levels
 #'
+#' @importFrom itertools2 ipairwise
 #' @export
 #' @param x numeric vectory
 #' @param breaks numeric vector of two ore more unique cut points
