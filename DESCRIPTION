@@ -1,8 +1,8 @@
 Package: pocketknife
 Type: Package
 Title: A collection of useful utility functions
-Version: 0.1
-Date: 2014-11-10
+Version: 0.1.1
+Date: 2014-02-22
 Author: John A. Ramey <johnramey@gmail.com>
 Maintainer: John A. Ramey <johnramey@gmail.com>
 Description: This package contains a variety of useful utility functions to

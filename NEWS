@@ -1,0 +1,18 @@
+# pocketknife 0.1.1
+
+## Utilities
+
+* `retry()`: Retry an expression with exponential backoff.
+
+# pocketknife 0.1
+
+## Utilities
+
+* `boxcox_transform()`: Helper function to transform a numeric vector via the
+  Box-Cox transformation. If the vector contains negative values, the
+  Yeo-Johnson transformation is available as an option. To backtransform, use
+  `inv_boxcox()`.
+
+* `cut_pretty()`: Cuts a vector into factors with pretty levels
+
+* `table_na()`: Contingency table including NA values
