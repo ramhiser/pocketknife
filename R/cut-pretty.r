@@ -14,6 +14,6 @@
 cut_pretty <- function(x, breaks, collapse=" to ", ...) {
   it_breaks <- itertools2::ipairwise(breaks)
   breaks_pretty <- sapply(it_breaks, paste, collapse=collapse)
-  
+
   cut(x, breaks=breaks, labels=breaks_pretty, ...)
 }

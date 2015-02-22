@@ -21,11 +21,11 @@
 #' in \code{lambda}.
 boxcox_transform <- function(x, plot=FALSE, family=c("bcPower", "yjPower"), ...) {
   family <- match.arg(family)
-  
+
   df <- data.frame(x=x)
   bc_out <- car::boxCox(x ~ 1, data=df, family=family, plotit=plot, interp=TRUE, ...)
   lambda <- with(bc_out, x[which.max(y)])
-  
+
   if (family == "bcPower") {
     x <- bcPower(x, lambda=lambda)
   } else if (family == "yjPower") {
